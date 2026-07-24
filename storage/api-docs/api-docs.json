@@ -275,8 +275,7 @@
                         "required": false,
                         "schema": {
                             "type": "number",
-                            "format": "float",
-                            "example": 100
+                            "format": "float"
                         }
                     },
                     {
@@ -286,14 +285,16 @@
                         "required": false,
                         "schema": {
                             "type": "number",
-                            "format": "float",
-                            "example": 1000
+                            "format": "float"
                         }
                     }
                 ],
                 "responses": {
                     "200": {
                         "description": "Success"
+                    },
+                    "429": {
+                        "description": "Too many requests"
                     }
                 },
                 "security": [

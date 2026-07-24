@@ -10,6 +10,7 @@ A RESTful backend API built with Laravel.
 - Laravel Sanctum
 - Redis
 - Swagger
+- Swagger URL ([/api/documentation](http://127.0.0.1:8000/api/documentation))
 
 
 ## Setup
